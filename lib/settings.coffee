@@ -126,6 +126,8 @@ Settings =
       [
         # Disable Vimium on Gmail.
         { pattern: "https?://mail.google.com/*", passKeys: "" }
+        # Disable Vimium on Inbox.
+        { pattern: "https?://inbox.google.com/*", passKeys: "" }
       ]
 
     # NOTE: If a page contains both a single angle-bracket link and a double angle-bracket link, then in
